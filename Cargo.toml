@@ -11,3 +11,7 @@ tracing = "0.1.37"
 tracing-subscriber = "0.3.16"
 wgpu = "0.15.1"
 winit = "0.28.3"
+bytemuck = { version = "1.12", features = [ "derive" ] }
+image = {version = "0.24", default-features = false, features = ["png", "jpeg"]}
+anyhow = "1.0.70"
+
